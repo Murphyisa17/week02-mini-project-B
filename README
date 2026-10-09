@@ -1,0 +1,28 @@
+# Week 2 Mini Project — Temperature Conversion App
+
+## Purpose
+Converts a temperature between Celsius and Fahrenheit from the terminal.
+
+## Setup
+Requires g++ with C++17 support. No external libraries needed.
+
+## Input / Output Contract
+**Input:** two lines
+1. A numeric temperature
+A unit letter: `C`, `c`, `F`, or `f`
+
+**Output:**
+- On success: `<temperature> degrees <Original Unit> is <result> degrees <Target Unit>.`
+- On an invalid unit (anything other than C/c/F/f): `Invalid unit`
+
+### Examples
+| Input | Output |
+|---|---|
+| `0` then `C` | `0 degrees Celsius is 32 degrees Fahrenheit.` |
+| `32` then `F` | `32 degrees Fahrenheit is 0 degrees Celsius.` |
+| `10` then `X` | `Invalid unit` |
+
+### Team's edge case
+<!-- fill in once your team decides — e.g. non-numeric temperature, or a negative value -->
+
+## Build and Run
